@@ -43,17 +43,25 @@ logo:                  /assets/img/blog/kyusang.jpg
 author:
   # Used by `jekyll-feed`:
   name:                Jo Kyusang
-  email:               goldjks0512@gmail.com
+  email:               goldjks0512@naver.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title:             About
+  - title:             DailyLife
     url:               /example/
-  - title:             Language
+  - title:             Algorithm
     url:               /docs/
-  - title:             Coding Test
+  - title:             Programming
+    url:               /about/
+  - title:             Frontend
+    url:               /about/
+  - title:             Backend
+    url:               /about/
+  - title:             Database
+    url:               /about/
+  - title:             ETC
     url:               /about/
 
 # Add links to the footer.
@@ -65,10 +73,6 @@ legal:
     url:               /NOTICE/
   - title:             CHANGELOG
     url:               /CHANGELOG/
-
-vvs:
-  name:                Kyusang Jo
-  email:               goldjks0512@gmail.com
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2023. All rights reserved.
@@ -84,8 +88,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+theme: jekyll-theme-hydejack
+#remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
