@@ -25,8 +25,8 @@ title:                 Positive Developer
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  규규의 개발블로그입니다. 항상 긍정적인 개발자로서 끊임없는 발전과 실력향상에 도움이 되는 개발블로그를
+  만들어 가겠습니다!
 
 # A shorter description for the sidebar.
 tagline:               Don't Dream, To Be..!
@@ -49,30 +49,30 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             DailyLife
-    url:               /example/
+  - title:             About
+    url:               /about/
   - title:             Algorithm
-    url:               /docs/
+    url:               /algorithm/
   - title:             Programming
-    url:               /about/
+    url:               /programming/
   - title:             Frontend
-    url:               /about/
+    url:               /frontend/
   - title:             Backend
-    url:               /about/
+    url:               /backend/
   - title:             Database
-    url:               /about/
+    url:               /database/
   - title:             ETC
-    url:               /about/
+    url:               /etc/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
+# legal:
+#   - title:             LICENSE
+#     url:               /LICENSE/
+#   - title:             NOTICE
+#     url:               /NOTICE/
+#   - title:             CHANGELOG
+#     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2023. All rights reserved.
@@ -87,8 +87,9 @@ paginate_path:         /:num/
 
 # Theme
 # ---------------------------------------------------------------------------------------
-
+#개발모드
 #theme: jekyll-theme-hydejack
+#빌드모드
 remote_theme: hydecorp/hydejack@v9
 
 
@@ -276,7 +277,7 @@ hydejack:
   dark_mode:
     # Set to `true` to always use the dark theme.
     always:            false
-
+  
     # Set to `true` to use the dark theme based on visitors' preference (OS setting).
     dynamic:           true
 
