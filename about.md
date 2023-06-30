@@ -7,13 +7,32 @@ sidebar: true
 order: 1
 ---
 
-## Hello, World!
+## 💡 한계 돌파를 위해..!
 
-Hi, I'm **DaeIn Lee**, *a.k.a.* **Lazy Ren**.<br>
-I'm currently working at **[SAP Labs Korea]**, and previsouly was CSE student of **[Hanyang University]**.<br>
-I like to solve brain teasing problems in field of CSE (probably the reason I liked multi-core programming / OS courses).<br>
-And I'm also a [heavy gamer]!<br>
-Pleaseh check my [resume] if you wish to know more about me.
+
+
+안녕하세요, 저는 **풀스택 개발자**를 꿈꾸고 있는 **조규상**입니다. 🙇🏻‍♂️ <br>
+
+저는 언제나 긍정적인 사고방식으로 일하고 있으며,<br/>
+문제에 직면했을 때도 항상 해결책을 찾으며 도전하는 자세를 가지고 있습니다.<br/>
+
+제가 개발하는 과정에서 최신 개발 도구와 라이브러리를 적극적으로 활용하며,<br/>
+지속적인 학습과 개선에 주력하고 있습니다.<br/>
+새로운 기술과 트렌드에 대한 관심을 갖고 있어서,<br/>
+항상 업계의 변화에 뒤처지지 않고 새로운 도전을 수행하고자 합니다.<br/>
+
+팀 프로젝트에서 효율적인 협업을 위해 의사소통과 리더십 능력을 갖추고 있습니다.<br/>
+문제를 해결하기 위해 동료들과 함께 논의하고 아이디어를 나누며,<br/>
+서로를 도우며 성장하는 것을 중요하게 생각합니다.<br/>
+
+언제나 긍정적인 마인드셋으로 일하며, 새로운 도전에 힘입어 성공을 이뤄냅니다!<br/>
+문제를 해결하는데 있어서 유연하고 창의적인 접근법을 취하며,<br/>
+어떤 상황에서도 포기하지 않고 끈기를 갖고 노력합니다.<br/>
+
+한계를 넘어서 끝 없이 공부하며 연구하는 개발자가 될 것입니다 📖 <br/>
+
+
+
 
 ***
 
@@ -21,52 +40,33 @@ Pleaseh check my [resume] if you wish to know more about me.
 
 ***
 
-## Work Hard to be Lazy
+## Skills
 
-_My motto to live by._
-{:.lead}
+`Html/CSS` `React.js` `Next.js` `Redux` `TypeScript` `Node.js` `MySQL` `Docker` `Javascript` `C/C++`
 
-> “Working hard to be lazy basically means investing the extra effort (working hard) at first so that it will pay off in the long run (be lazy).”
+## Certificate
 
-## Re-evaluate your work processes
+`ITQ` `워드프로세스` `정보처리기능사` 
 
-The lazy man will try to accomplish 2 hours worth of work in 1 hour’s time but sometimes at the expense of the work’s quality.<br>
-Think of it as **efficiency = quality/time** taken (referencing speed = distance/over).<br>
-If the time taken is reduced, either the job’s quality has to be lowered or the efficiency must be increased. Efficiency really relates to the work process.<br>
-So in order to keep the quality the same and reduce the time taken, the work process must be changed.
+## Experience
 
-## Don’t repeat yourself
-
-After evaluating what you do, you may have some ideas of what you want to improve or modify.<br>
-Break it down to its core.
-
-## Try a new process
-
-Be open to completely changing the way you work.<br>
-You can’t expect to become more productive unless you pay a price at first.
-
-## Refine yourself
-
-By refining yourself I mean going through this work hard to be lazy process in iterations.<br>
-Try a new process, if that doesn’t help as much as you hoped, try another process.<br>
-The worst thing that could happen is that you don’t find any improvement in your work process and go back to your original process and just work hard.<br>
-Did you lose anything?
-
-[original post]
+> 지능형플랫폼 프론트엔드 개발(22 Jul ~ 23 Sept)<br/>
+  TMP 3차원가시화 프로젝트(23 Jul ~ ing)<br/>
+  LPH-CSS(23 Jul ~ ing)<br/>
 
 ***
 
-Blog created by DaeIn Lee on July 19. 2018 in Vancouver,<br>
+Blog created by Kyusang Jo on July 1. 2023 in Korea,<br/> 
 based on the jekyll theme [Hydejack].
+And I’m also a [heavy gamer]!
 
 ***
 
 <!--author-->
 
 <!-- Links -->
-[SAP Labs Korea]: https://www.sap.com/korea/about/labs-korea.html
-[Hanyang University]: https://www.hanyang.ac.kr/
-[heavy gamer]: https://steamcommunity.com/id/lazyren
-[resume]: /resume/
-[original post]: http://blog.vivekmahbubani.com/2007/03/work-hard-to-be-lazy.html
+<!-- [SAP Labs Korea]: https://www.sap.com/korea/about/labs-korea.html
+[Hanyang University]: https://www.hanyang.ac.kr/ -->
+[heavy gamer]: https://steamcommunity.com/id/calra/
+<!-- [resume]: /resume/ -->
 [Hydejack]: https://hydejack.com

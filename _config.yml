@@ -39,14 +39,14 @@ keywords:              ["Development", "C++", "React", "Jekyll", "github", "Vue.
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo254x.jpg
+logo:                  /assets/img/logo254x.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
   name:                Kyusang Jo
   email:               goldjks0512@naver.com
-  picture:             /assets/img/logo254x.jpg
+  picture:             /assets/img/logo254x.png
   social:
     instagram:         jks_0512
     github:            Leverty
