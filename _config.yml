@@ -79,9 +79,10 @@ excerpt_separator:     <!--more-->
 
 # Theme
 # ---------------------------------------------------------------------------------------
-
+# 개발모드
 # theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9
+# 빌드모드
+remote_theme: hydecorp/hydejack@v9
 
 
 # Customization
