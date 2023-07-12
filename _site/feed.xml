@@ -1,96 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR, en-US"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ko-KR, en-US" /><updated>2023-07-02T02:27:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Postive Developer</title><subtitle>This is Kyu-sang Jo who researches and develops with a positive mindset.
-</subtitle><author><name>Kyusang Jo</name><email>goldjks0512@naver.com</email></author><entry><title type="html">#1 Javascript 이란 무엇인가?</title><link href="http://localhost:4000/programming/html-define.html" rel="alternate" type="text/html" title="#1 Javascript 이란 무엇인가?" /><published>2023-07-02T00:00:00+09:00</published><updated>2023-07-02T00:00:00+09:00</updated><id>http://localhost:4000/programming/html-define</id><content type="html" xml:base="http://localhost:4000/programming/html-define.html">&lt;p class=&quot;figcaption&quot;&gt;이제 키지도 않는 LED는 질렸습니다. 이제는, 이제는 65%의 시대입니다…!!!&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Keyboard&lt;/th&gt;
-      &lt;th&gt;Layout&lt;/th&gt;
-      &lt;th&gt;Mount&lt;/th&gt;
-      &lt;th&gt;Plate&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Ark68 SE&lt;/td&gt;
-      &lt;td&gt;65%&lt;/td&gt;
-      &lt;td&gt;Gasket&lt;/td&gt;
-      &lt;td&gt;Aluminium&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;!--more--&gt;
-
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko-KR, en-US"><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ko-KR, en-US" /><updated>2023-07-12T23:59:38+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Postive Developer</title><subtitle>This is Kyu-sang Jo who researches and develops with a positive mindset.
+</subtitle><author><name>Kyusang Jo</name><email>goldjks0512@naver.com</email></author><entry><title type="html">#1 HTML 이란 무엇인가?</title><link href="http://localhost:4000/frontend/html-define.html" rel="alternate" type="text/html" title="#1 HTML 이란 무엇인가?" /><published>2023-07-12T00:00:00+09:00</published><updated>2023-07-12T00:00:00+09:00</updated><id>http://localhost:4000/frontend/html-define</id><content type="html" xml:base="http://localhost:4000/frontend/html-define.html">&lt;!--&gt; TABLE OF CONTENTS &lt;!--&gt;
 &lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#html-이란-무엇인가&quot; id=&quot;markdown-toc-html-이란-무엇인가&quot;&gt;HTML 이란 무엇인가&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#소개&quot; id=&quot;markdown-toc-소개&quot;&gt;소개&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#layout&quot; id=&quot;markdown-toc-layout&quot;&gt;Layout&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#magnetic-cable&quot; id=&quot;markdown-toc-magnetic-cable&quot;&gt;Magnetic Cable&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#html요소의-구조와-속성&quot; id=&quot;markdown-toc-html요소의-구조와-속성&quot;&gt;HTML요소의 구조와 속성&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#html-기본뼈대실습&quot; id=&quot;markdown-toc-html-기본뼈대실습&quot;&gt;HTML 기본뼈대(실습)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&quot;html-이란-무엇인가&quot;&gt;HTML 이란 무엇인가&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;HTML 은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hyper Text Markup Language&lt;/code&gt; 약어로 HyperText(웹 페이지에서 다른 페이지로 이동할 수 있도록 하는 것) 기능을 가진 문서를 만드는 언어입니다.
+  다시 말해, 구조를 설계할 때 사용되는 언어로 hyper link 시스템을 가지고 있으며, 흔히 말하는 웹 페이지를 위한 마크업 언어라고 할 수 있습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;소개&quot;&gt;소개&lt;/h2&gt;
 
-&lt;p class=&quot;text-align-center&quot;&gt;&lt;img src=&quot;/assets/img/2022-09-16/my-ark-1.jpg&quot; alt=&quot;Ark 1&quot; width=&quot;45%&quot; /&gt;
-&lt;img src=&quot;/assets/img/2022-09-16/my-ark-2.jpg&quot; alt=&quot;Ark 2&quot; width=&quot;45%&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;text-align-center&quot;&gt;&lt;img src=&quot;/assets/img/2023-07-12/html.png&quot; alt=&quot;Ark 1&quot; width=&quot;90%&amp;quot;, height=&amp;quot;100%&quot; /&gt;
+&lt;!-- ![Ark 2](/assets/img/2022-09-16/my-ark-2.jpg){:width=&quot;45%&quot;} --&gt;&lt;/p&gt;
 
-&lt;p&gt;언젠가는 사겠노라 다짐했던 65% 배열의 &lt;a href=&quot;https://arkstudio.shop/product/group-buy-ark68-r2/&quot;&gt;Ark68 SE&lt;/a&gt; 키보드입니다. 적응을 잘 할까 걱정했지만 빠르게 결론부터
-말씀드리자면, 아주 만족스럽습니다. 앞으로 같은 배열 하나만 더 사서 회사에 둬야겠습니다.&lt;/p&gt;
+&lt;p&gt;간단히 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;웹(Web)&lt;/code&gt;이라 부르는 경우가 많습니다.
+이 문서도 역시 엄연한 웹 페이지이며, 따라서 현재 이 문서를 읽고 있다면 ‘웹 페이지를 보고 있다’고도 할 수 있습니다.
+그리고 이 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;web&lt;/code&gt; 이란 용어는 인터넷과 동의어로 쓰이는 경우가 많으나 엄격히 말해 서로 다른 개념입니다.
+인터넷이란 이름은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;네트워크의 네트워크&lt;/code&gt;를 구현하여 모든 컴퓨터를 하나의 통신망 안에 연결(Inter Network)하고자 하는 의도에서
+이를 줄여 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;인터넷(Internet)&lt;/code&gt;이라고 처음 명명하였던데 어원을 두고 있습니다.
+이러한 개념들을 상세히 숙지하고 있을 필요는 없지만 이 분야를 공부하고자 한다면 배경 지식정도는 알아두면 좋을 것 같습니다.&lt;/p&gt;
 
-&lt;div class=&quot;iframe-container&quot;&gt;
-    &lt;iframe src=&quot;https://www.youtube.com/embed/dEXu_2HWHMw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+&lt;p&gt;또한 앞으로 이 마크업 언어를 숙지하는데 있어 항상 시멘틱 마크업을 목표로 나아가야 할 것입니다.
+시멘틱 마크업(Semantic Markup) 은 웹 사이트(페이지)의 콘텐츠를 설명하는데 사용되는 마크업 언어이고,
+HTML 은 콘텐츠의 의미를 설명하는데 유일한 목적을 가집니다.
+앞으로 공부할 CSS 가 비주얼 디자인(Visual Design) 이라면 HTML 은 구조적 설계(Structure Design) 이라 할 수 있습니다.&lt;/p&gt;
 
-&lt;p class=&quot;figcaption&quot;&gt;저를 지름의 길로 이끌었던 빌드 동영상입니다.&lt;/p&gt;
+&lt;h2 id=&quot;html요소의-구조와-속성&quot;&gt;HTML요소의 구조와 속성&lt;/h2&gt;
 
-&lt;p&gt;심플하면서도 &lt;em&gt;Special Edition&lt;/em&gt;만이 가지고 있는 엣지의 미려함에 끌려서 고민 하지 않고 질렀습니다.&lt;/p&gt;
+&lt;p&gt;HTML은 이름에서도 알 수 있듯이 마크업(MarkUp) 언어입니다!&lt;br /&gt;
+한마디로 프로그래밍 언어가 아니라는거죠!&lt;br /&gt;
+&lt;u&gt;문서의 구조(뼈대)&lt;/u&gt;라고 보시면 되겠습니다.&lt;/p&gt;
 
-&lt;p&gt;키캡을 동영상과 같이 &lt;em&gt;Oblivion&lt;/em&gt;을 살까 하다가 &lt;em&gt;Arctic&lt;/em&gt; keycap으로 결정했습니다. 아주 잘 어울립니다.&lt;/p&gt;
+&lt;p&gt;다음 문장을 예시로 들어볼까요? &lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;p style=&quot;color:red;&quot;&amp;gt;Hyper Text Markup Language&amp;lt;/p&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;여는 태그(Tag) : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;p&lt;/code&gt;라는 요소의 이름과 요소의 효과를 적용시킵니다.&lt;/li&gt;
+  &lt;li&gt;속성명(attribute) : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;style&lt;/code&gt; 요소의 속성을 의미합니다.&lt;/li&gt;
+  &lt;li&gt;속성값(attribute value) : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;color:red;&lt;/code&gt; 요소의 속성 값을 의미합니다. &lt;u&gt;색깔을 빨간색으로&lt;/u&gt;라는 의미를 부여합니다.&lt;/li&gt;
+  &lt;li&gt;값(value) : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hyper Text Markup Language&lt;/code&gt; 요소의 내용을 의미합니다.&lt;/li&gt;
+  &lt;li&gt;닫는 태그(tag) : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;/p&amp;gt;&lt;/code&gt; 항상 시작이 있으면 끝이 있어야겠죠? &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&lt;/code&gt;로 마무리 해줍니다.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2022-09-16/my-ark-3.jpg&quot; alt=&quot;Ark 3&quot; class=&quot;centered&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;보통 모든 태그들은 시작과 끝이 존재합니다. 하지만 예외의 태그도 존재합니다.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;/br&amp;gt;&lt;/code&gt; 이러한 br 태그처럼 닫는 태그가 따로 존재하지 않고 하나의 태그에 열고 닫는태그가 같이 있는 태그를 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;빈(empty)태그&lt;/code&gt;라고합니다.&lt;/p&gt;
 
-&lt;p class=&quot;figcaption&quot;&gt;평소에 맥에선 잘 켜두지도 않는 카톡이 왜 이 사진에선 저리 크게 켜져 있는건지…&lt;/p&gt;
+&lt;h2 id=&quot;html-기본뼈대실습&quot;&gt;HTML 기본뼈대(실습)&lt;/h2&gt;
 
-&lt;h2 id=&quot;layout&quot;&gt;Layout&lt;/h2&gt;
+&lt;p&gt;저희는 Markup언어를 배워보았습니다. 그러면 실제로 한번 만들어 봐야겠죠?&lt;br /&gt;
+만드는 방법은 쉽습니다~&lt;br /&gt;
+1 먼저 바탕화면에 우클릭 후 새로만들기로 txt 파일을 만들어주세요!&lt;br /&gt;
+2 다음 아래와 같은 코드를 복사해서 붙여주세요!&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;이왕 65% 사는거 하고 싶은거 다 하자는 마음으로 쪼갰습니다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+	  문서의 정보, 화면상에 출력되지는 않는다.
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    	화면상에 보여지는 모든 요소를 위치한다.
+  &amp;lt;/body&amp;gt;
+  &amp;lt;footer&amp;gt;
+    하단 CopyRight부분에 위치한다.
+  &amp;lt;/footer&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/2022-09-16/double-sword.gif&quot; alt=&quot;Varian&quot; class=&quot;centered&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;figcaption&quot;&gt;이걸 쪼갠건 아니구요…&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Backspace&lt;/code&gt;를 쪼개버렸습니다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Esc&lt;/code&gt; 키가 숫자열로 내려와버리니 자주 사용하는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~&lt;/code&gt; 키를 놓기가 애매하더군요.
-&lt;strong&gt;Fn layout&lt;/strong&gt;에도 추가하였지만 키도 살려두는 게 좋을 것 같아&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Backspace&lt;/code&gt;를 쪼개고 해당 위치에&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~&lt;/code&gt;,&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\&lt;/code&gt;를
-놓았습니다.&lt;br /&gt;
-항상 그렇듯 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CapsLock&lt;/code&gt;은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fn&lt;/code&gt;으로 대체되었구요.&lt;br /&gt;
-한가지 애매한 부분은 가장 오른쪽에 3개의 펑션키를 맵핑할 수 있는데, 가장 아래에 둘 게 없어서 일단 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fn&lt;/code&gt;을 놨습니다만,
-역시나 쓰지를 않네요. 좋은 위치인데 마땅히 둘 만한게 없습니다… 개인적으로 매우 유용하게 쓰고 있는 레이아웃을
-공개합니다. 더 좋은 아이디어가 있으면 댓글 부탁드립니다.&lt;/p&gt;
-
-&lt;p class=&quot;text-align-centered&quot;&gt;&lt;img src=&quot;/assets/img/2022-09-16/normal-layout.png&quot; alt=&quot;Normal Layout&quot; width=&quot;45%&quot; /&gt;
-&lt;img src=&quot;/assets/img/2022-09-16/fn-layout.png&quot; alt=&quot;Fn Layout&quot; width=&quot;45%&quot; /&gt;&lt;/p&gt;
-
-&lt;p class=&quot;figcaption&quot;&gt;Normal Layout / Fn Layout&lt;/p&gt;
-
-&lt;p&gt;이제 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CapsLock&lt;/code&gt;에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fn&lt;/code&gt;을 맵핑한 후 &lt;em&gt;WASD&lt;/em&gt; 로 이동 및 &lt;em&gt;QE&lt;/em&gt;에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Home&lt;/code&gt;/ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;End&lt;/code&gt;, &lt;em&gt;ZX&lt;/em&gt;에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Backspace&lt;/code&gt; / &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Del&lt;/code&gt;에
-너무 익숙해져버렸습니다. 한 손으로 앵간한 code navigation 및 간단한 변경이 가능해지니 이제 맵핑 안된 키보드는
-사용할 때 너무 불편하게 느껴집니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;magnetic-cable&quot;&gt;Magnetic Cable&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/2022-09-16/magnetic-cable.webp&quot; alt=&quot;Magnetic Cable&quot; class=&quot;centered&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;조금 의도치 않게 돈이 많이 들어간 부분입니다.&lt;br /&gt;
-저는 집에서 맥과 PC를 동시에 사용하기 때문에 키보드를 변경할 방법이 필요합니다. 원래는 USB Switcher를 구매해서
-사용했지만, 불안전한 전압으로 인해 오리온 키보드 LED가 나간 안 좋은 기억이 있어서 포기하고 2개의 케이블을 준비해두고
-케이블만 변경하며 사용하고 있었습니다만…&lt;br /&gt;
-이게 여간 귀찮은게 아닙니다..! 그래서 이참에 magnetic cable을 구매해봤습니다.&lt;/p&gt;
-
-&lt;p&gt;조금 걱정도 있었지만 요즘 나오는 것들은 예전처럼 문제가 발생하는 일은 없다고 해서 믿고 사봤습니다.
-약 한 달 정도 사용해봤는데 꽤 편합니다. 인식도 케이블 연결 후 2~3초 내에 되고 힘 줘서 빼지 않는 이상 빠지지 않을
-정도의 자력을 가지고 있습니다.&lt;/p&gt;
-
-&lt;p&gt;혹시 구매하실 예정이라면 이러한 종류의 케이블 중에는 데이터 전송은 안되고 충전만 되는 케이블들이 많으니 확인 후
-구매하시기 바랍니다.&lt;/p&gt;</content><author><name>Kyusang Jo</name><email>goldjks0512@naver.com</email></author><category term="programming" /><category term="javascript" /><summary type="html">이제 키지도 않는 LED는 질렸습니다. 이제는, 이제는 65%의 시대입니다…!!! Keyboard Layout Mount Plate Ark68 SE 65% Gasket Aluminium</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/2022-09-16/ark68.png" /><media:content medium="image" url="http://localhost:4000/assets/img/2022-09-16/ark68.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">#1 Nodejs 이란 무엇인가?</title><link href="http://localhost:4000/backend/html-define.html" rel="alternate" type="text/html" title="#1 Nodejs 이란 무엇인가?" /><published>2023-07-02T00:00:00+09:00</published><updated>2023-07-02T00:00:00+09:00</updated><id>http://localhost:4000/backend/html-define</id><content type="html" xml:base="http://localhost:4000/backend/html-define.html">&lt;p class=&quot;figcaption&quot;&gt;이제 키지도 않는 LED는 질렸습니다. 이제는, 이제는 65%의 시대입니다…!!!&lt;/p&gt;
+&lt;p&gt;3 파일을 저장하고 확장자명 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;txt&lt;/code&gt;를 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;html&lt;/code&gt;로 바꿔주세요!&lt;br /&gt;
+4 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.html&lt;/code&gt;확장자 파일을 열어주시면 &lt;u&gt;정적(static) 웹 페이지&lt;/u&gt;가 만들어집니다!&lt;br /&gt;&lt;/p&gt;</content><author><name>Kyusang Jo</name><email>goldjks0512@naver.com</email></author><category term="frontend" /><category term="html" /><summary type="html">HTML 이란 무엇인가 소개 HTML요소의 구조와 속성 HTML 기본뼈대(실습) HTML 이란 무엇인가 HTML 은 Hyper Text Markup Language 약어로 HyperText(웹 페이지에서 다른 페이지로 이동할 수 있도록 하는 것) 기능을 가진 문서를 만드는 언어입니다. 다시 말해, 구조를 설계할 때 사용되는 언어로 hyper link 시스템을 가지고 있으며, 흔히 말하는 웹 페이지를 위한 마크업 언어라고 할 수 있습니다. 소개 간단히 웹(Web)이라 부르는 경우가 많습니다. 이 문서도 역시 엄연한 웹 페이지이며, 따라서 현재 이 문서를 읽고 있다면 ‘웹 페이지를 보고 있다’고도 할 수 있습니다. 그리고 이 web 이란 용어는 인터넷과 동의어로 쓰이는 경우가 많으나 엄격히 말해 서로 다른 개념입니다. 인터넷이란 이름은 네트워크의 네트워크를 구현하여 모든 컴퓨터를 하나의 통신망 안에 연결(Inter Network)하고자 하는 의도에서 이를 줄여 인터넷(Internet)이라고 처음 명명하였던데 어원을 두고 있습니다. 이러한 개념들을 상세히 숙지하고 있을 필요는 없지만 이 분야를 공부하고자 한다면 배경 지식정도는 알아두면 좋을 것 같습니다. 또한 앞으로 이 마크업 언어를 숙지하는데 있어 항상 시멘틱 마크업을 목표로 나아가야 할 것입니다. 시멘틱 마크업(Semantic Markup) 은 웹 사이트(페이지)의 콘텐츠를 설명하는데 사용되는 마크업 언어이고, HTML 은 콘텐츠의 의미를 설명하는데 유일한 목적을 가집니다. 앞으로 공부할 CSS 가 비주얼 디자인(Visual Design) 이라면 HTML 은 구조적 설계(Structure Design) 이라 할 수 있습니다. HTML요소의 구조와 속성 HTML은 이름에서도 알 수 있듯이 마크업(MarkUp) 언어입니다! 한마디로 프로그래밍 언어가 아니라는거죠! 문서의 구조(뼈대)라고 보시면 되겠습니다. 다음 문장을 예시로 들어볼까요? &amp;lt;p style=&quot;color:red;&quot;&amp;gt;Hyper Text Markup Language&amp;lt;/p&amp;gt; 여는 태그(Tag) : p라는 요소의 이름과 요소의 효과를 적용시킵니다. 속성명(attribute) : style 요소의 속성을 의미합니다. 속성값(attribute value) : color:red; 요소의 속성 값을 의미합니다. 색깔을 빨간색으로라는 의미를 부여합니다. 값(value) : Hyper Text Markup Language 요소의 내용을 의미합니다. 닫는 태그(tag) : &amp;lt;/p&amp;gt; 항상 시작이 있으면 끝이 있어야겠죠? /로 마무리 해줍니다. 보통 모든 태그들은 시작과 끝이 존재합니다. 하지만 예외의 태그도 존재합니다. &amp;lt;/br&amp;gt; 이러한 br 태그처럼 닫는 태그가 따로 존재하지 않고 하나의 태그에 열고 닫는태그가 같이 있는 태그를 빈(empty)태그라고합니다. HTML 기본뼈대(실습) 저희는 Markup언어를 배워보았습니다. 그러면 실제로 한번 만들어 봐야겠죠? 만드는 방법은 쉽습니다~ 1 먼저 바탕화면에 우클릭 후 새로만들기로 txt 파일을 만들어주세요! 2 다음 아래와 같은 코드를 복사해서 붙여주세요! &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; 문서의 정보, 화면상에 출력되지는 않는다. &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; 화면상에 보여지는 모든 요소를 위치한다. &amp;lt;/body&amp;gt; &amp;lt;footer&amp;gt; 하단 CopyRight부분에 위치한다. &amp;lt;/footer&amp;gt; &amp;lt;/html&amp;gt; 3 파일을 저장하고 확장자명 txt를 html로 바꿔주세요! 4 .html확장자 파일을 열어주시면 정적(static) 웹 페이지가 만들어집니다!</summary></entry><entry><title type="html">#1 Nodejs 이란 무엇인가?</title><link href="http://localhost:4000/backend/html-define.html" rel="alternate" type="text/html" title="#1 Nodejs 이란 무엇인가?" /><published>2023-07-02T00:00:00+09:00</published><updated>2023-07-02T00:00:00+09:00</updated><id>http://localhost:4000/backend/html-define</id><content type="html" xml:base="http://localhost:4000/backend/html-define.html">&lt;p class=&quot;figcaption&quot;&gt;이제 키지도 않는 LED는 질렸습니다. 이제는, 이제는 65%의 시대입니다…!!!&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -363,79 +344,95 @@
 정도의 자력을 가지고 있습니다.&lt;/p&gt;
 
 &lt;p&gt;혹시 구매하실 예정이라면 이러한 종류의 케이블 중에는 데이터 전송은 안되고 충전만 되는 케이블들이 많으니 확인 후
-구매하시기 바랍니다.&lt;/p&gt;</content><author><name>Kyusang Jo</name><email>goldjks0512@naver.com</email></author><category term="etc" /><category term="docker" /><summary type="html">이제 키지도 않는 LED는 질렸습니다. 이제는, 이제는 65%의 시대입니다…!!! Keyboard Layout Mount Plate Ark68 SE 65% Gasket Aluminium</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/2022-09-16/ark68.png" /><media:content medium="image" url="http://localhost:4000/assets/img/2022-09-16/ark68.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">HTML 이란 무엇인가</title><link href="http://localhost:4000/frontend/html-define.html" rel="alternate" type="text/html" title="HTML 이란 무엇인가" /><published>2023-07-02T00:00:00+09:00</published><updated>2023-07-02T00:00:00+09:00</updated><id>http://localhost:4000/frontend/html-define</id><content type="html" xml:base="http://localhost:4000/frontend/html-define.html">&lt;blockquote&gt;
-  &lt;p&gt;HTML 은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hyper Text Markup Language&lt;/code&gt; 약어로 HyperText(웹 페이지에서 다른 페이지로 이동할 수 있도록 하는 것) 기능을 가진 문서를 만드는 언어입니다.
-  다시 말해, 구조를 설계할 때 사용되는 언어로 hyper link 시스템을 가지고 있으며, 흔히 말하는 웹 페이지를 위한 마크업 언어라고 할 수 있습니다.&lt;/p&gt;
-&lt;/blockquote&gt;
+구매하시기 바랍니다.&lt;/p&gt;</content><author><name>Kyusang Jo</name><email>goldjks0512@naver.com</email></author><category term="etc" /><category term="docker" /><summary type="html">이제 키지도 않는 LED는 질렸습니다. 이제는, 이제는 65%의 시대입니다…!!! Keyboard Layout Mount Plate Ark68 SE 65% Gasket Aluminium</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/2022-09-16/ark68.png" /><media:content medium="image" url="http://localhost:4000/assets/img/2022-09-16/ark68.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">#1 Javascript 이란 무엇인가?</title><link href="http://localhost:4000/programming/html-define.html" rel="alternate" type="text/html" title="#1 Javascript 이란 무엇인가?" /><published>2023-07-02T00:00:00+09:00</published><updated>2023-07-02T00:00:00+09:00</updated><id>http://localhost:4000/programming/html-define</id><content type="html" xml:base="http://localhost:4000/programming/html-define.html">&lt;p class=&quot;figcaption&quot;&gt;이제 키지도 않는 LED는 질렸습니다. 이제는, 이제는 65%의 시대입니다…!!!&lt;/p&gt;
 
-&lt;!-- ## 소개
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Keyboard&lt;/th&gt;
+      &lt;th&gt;Layout&lt;/th&gt;
+      &lt;th&gt;Mount&lt;/th&gt;
+      &lt;th&gt;Plate&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ark68 SE&lt;/td&gt;
+      &lt;td&gt;65%&lt;/td&gt;
+      &lt;td&gt;Gasket&lt;/td&gt;
+      &lt;td&gt;Aluminium&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-{:.text-align-center}
-![Ark 1](/assets/img/2022-09-16/my-ark-1.jpg){:width=&quot;45%&quot;}
-![Ark 2](/assets/img/2022-09-16/my-ark-2.jpg){:width=&quot;45%&quot;}
+&lt;!--more--&gt;
 
-언젠가는 사겠노라 다짐했던 65% 배열의 [Ark68 SE] 키보드입니다. 적응을 잘 할까 걱정했지만 빠르게 결론부터
-말씀드리자면, 아주 만족스럽습니다. 앞으로 같은 배열 하나만 더 사서 회사에 둬야겠습니다.
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#소개&quot; id=&quot;markdown-toc-소개&quot;&gt;소개&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#layout&quot; id=&quot;markdown-toc-layout&quot;&gt;Layout&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#magnetic-cable&quot; id=&quot;markdown-toc-magnetic-cable&quot;&gt;Magnetic Cable&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-[Ark68 SE]: https://arkstudio.shop/product/group-buy-ark68-r2/
+&lt;h2 id=&quot;소개&quot;&gt;소개&lt;/h2&gt;
+
+&lt;p class=&quot;text-align-center&quot;&gt;&lt;img src=&quot;/assets/img/2022-09-16/my-ark-1.jpg&quot; alt=&quot;Ark 1&quot; width=&quot;45%&quot; /&gt;
+&lt;img src=&quot;/assets/img/2022-09-16/my-ark-2.jpg&quot; alt=&quot;Ark 2&quot; width=&quot;45%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;언젠가는 사겠노라 다짐했던 65% 배열의 &lt;a href=&quot;https://arkstudio.shop/product/group-buy-ark68-r2/&quot;&gt;Ark68 SE&lt;/a&gt; 키보드입니다. 적응을 잘 할까 걱정했지만 빠르게 결론부터
+말씀드리자면, 아주 만족스럽습니다. 앞으로 같은 배열 하나만 더 사서 회사에 둬야겠습니다.&lt;/p&gt;
 
 &lt;div class=&quot;iframe-container&quot;&gt;
-    &lt;iframe src=&quot;https://www.youtube.com/embed/dEXu_2HWHMw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/dEXu_2HWHMw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-저를 지름의 길로 이끌었던 빌드 동영상입니다.
-{:.figcaption}
+&lt;p class=&quot;figcaption&quot;&gt;저를 지름의 길로 이끌었던 빌드 동영상입니다.&lt;/p&gt;
 
-심플하면서도 *Special Edition*만이 가지고 있는 엣지의 미려함에 끌려서 고민 하지 않고 질렀습니다.
+&lt;p&gt;심플하면서도 &lt;em&gt;Special Edition&lt;/em&gt;만이 가지고 있는 엣지의 미려함에 끌려서 고민 하지 않고 질렀습니다.&lt;/p&gt;
 
-키캡을 동영상과 같이 *Oblivion*을 살까 하다가 *Arctic* keycap으로 결정했습니다. 아주 잘 어울립니다.
+&lt;p&gt;키캡을 동영상과 같이 &lt;em&gt;Oblivion&lt;/em&gt;을 살까 하다가 &lt;em&gt;Arctic&lt;/em&gt; keycap으로 결정했습니다. 아주 잘 어울립니다.&lt;/p&gt;
 
-![Ark 3](/assets/img/2022-09-16/my-ark-3.jpg){:.centered}
+&lt;p&gt;&lt;img src=&quot;/assets/img/2022-09-16/my-ark-3.jpg&quot; alt=&quot;Ark 3&quot; class=&quot;centered&quot; /&gt;&lt;/p&gt;
 
-평소에 맥에선 잘 켜두지도 않는 카톡이 왜 이 사진에선 저리 크게 켜져 있는건지...
-{:.figcaption}
+&lt;p class=&quot;figcaption&quot;&gt;평소에 맥에선 잘 켜두지도 않는 카톡이 왜 이 사진에선 저리 크게 켜져 있는건지…&lt;/p&gt;
 
-## Layout
+&lt;h2 id=&quot;layout&quot;&gt;Layout&lt;/h2&gt;
 
-이왕 65% 사는거 하고 싶은거 다 하자는 마음으로 쪼갰습니다.
+&lt;p&gt;이왕 65% 사는거 하고 싶은거 다 하자는 마음으로 쪼갰습니다.&lt;/p&gt;
 
-![Varian](/assets/img/2022-09-16/double-sword.gif){:.centered}
+&lt;p&gt;&lt;img src=&quot;/assets/img/2022-09-16/double-sword.gif&quot; alt=&quot;Varian&quot; class=&quot;centered&quot; /&gt;&lt;/p&gt;
 
-이걸 쪼갠건 아니구요...
-{:.figcaption}
+&lt;p class=&quot;figcaption&quot;&gt;이걸 쪼갠건 아니구요…&lt;/p&gt;
 
-`Backspace`를 쪼개버렸습니다. `Esc` 키가 숫자열로 내려와버리니 자주 사용하는 `~` 키를 놓기가 애매하더군요.
-**Fn layout**에도 추가하였지만 키도 살려두는 게 좋을 것 같아`Backspace`를 쪼개고 해당 위치에`~`,`\`를
-놓았습니다.&lt;br&gt;
-항상 그렇듯 `CapsLock`은 `Fn`으로 대체되었구요.&lt;br&gt;
-한가지 애매한 부분은 가장 오른쪽에 3개의 펑션키를 맵핑할 수 있는데, 가장 아래에 둘 게 없어서 일단 `Fn`을 놨습니다만,
-역시나 쓰지를 않네요. 좋은 위치인데 마땅히 둘 만한게 없습니다... 개인적으로 매우 유용하게 쓰고 있는 레이아웃을
-공개합니다. 더 좋은 아이디어가 있으면 댓글 부탁드립니다.
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Backspace&lt;/code&gt;를 쪼개버렸습니다. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Esc&lt;/code&gt; 키가 숫자열로 내려와버리니 자주 사용하는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~&lt;/code&gt; 키를 놓기가 애매하더군요.
+&lt;strong&gt;Fn layout&lt;/strong&gt;에도 추가하였지만 키도 살려두는 게 좋을 것 같아&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Backspace&lt;/code&gt;를 쪼개고 해당 위치에&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~&lt;/code&gt;,&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\&lt;/code&gt;를
+놓았습니다.&lt;br /&gt;
+항상 그렇듯 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CapsLock&lt;/code&gt;은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fn&lt;/code&gt;으로 대체되었구요.&lt;br /&gt;
+한가지 애매한 부분은 가장 오른쪽에 3개의 펑션키를 맵핑할 수 있는데, 가장 아래에 둘 게 없어서 일단 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fn&lt;/code&gt;을 놨습니다만,
+역시나 쓰지를 않네요. 좋은 위치인데 마땅히 둘 만한게 없습니다… 개인적으로 매우 유용하게 쓰고 있는 레이아웃을
+공개합니다. 더 좋은 아이디어가 있으면 댓글 부탁드립니다.&lt;/p&gt;
 
-{:.text-align-centered}
-![Normal Layout](/assets/img/2022-09-16/normal-layout.png){:width=&quot;45%&quot;}
-![Fn Layout](/assets/img/2022-09-16/fn-layout.png){:width=&quot;45%&quot;}
+&lt;p class=&quot;text-align-centered&quot;&gt;&lt;img src=&quot;/assets/img/2022-09-16/normal-layout.png&quot; alt=&quot;Normal Layout&quot; width=&quot;45%&quot; /&gt;
+&lt;img src=&quot;/assets/img/2022-09-16/fn-layout.png&quot; alt=&quot;Fn Layout&quot; width=&quot;45%&quot; /&gt;&lt;/p&gt;
 
-Normal Layout / Fn Layout
-{:.figcaption}
+&lt;p class=&quot;figcaption&quot;&gt;Normal Layout / Fn Layout&lt;/p&gt;
 
-이제 `CapsLock`에 `Fn`을 맵핑한 후 *WASD* 로 이동 및 *QE*에 `Home`/ `End`, *ZX*에 `Backspace` / `Del`에
+&lt;p&gt;이제 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CapsLock&lt;/code&gt;에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Fn&lt;/code&gt;을 맵핑한 후 &lt;em&gt;WASD&lt;/em&gt; 로 이동 및 &lt;em&gt;QE&lt;/em&gt;에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Home&lt;/code&gt;/ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;End&lt;/code&gt;, &lt;em&gt;ZX&lt;/em&gt;에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Backspace&lt;/code&gt; / &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Del&lt;/code&gt;에
 너무 익숙해져버렸습니다. 한 손으로 앵간한 code navigation 및 간단한 변경이 가능해지니 이제 맵핑 안된 키보드는
-사용할 때 너무 불편하게 느껴집니다.
+사용할 때 너무 불편하게 느껴집니다.&lt;/p&gt;
 
-## Magnetic Cable
+&lt;h2 id=&quot;magnetic-cable&quot;&gt;Magnetic Cable&lt;/h2&gt;
 
-![Magnetic Cable](/assets/img/2022-09-16/magnetic-cable.webp){:.centered}
+&lt;p&gt;&lt;img src=&quot;/assets/img/2022-09-16/magnetic-cable.webp&quot; alt=&quot;Magnetic Cable&quot; class=&quot;centered&quot; /&gt;&lt;/p&gt;
 
-조금 의도치 않게 돈이 많이 들어간 부분입니다.&lt;br&gt;
+&lt;p&gt;조금 의도치 않게 돈이 많이 들어간 부분입니다.&lt;br /&gt;
 저는 집에서 맥과 PC를 동시에 사용하기 때문에 키보드를 변경할 방법이 필요합니다. 원래는 USB Switcher를 구매해서
 사용했지만, 불안전한 전압으로 인해 오리온 키보드 LED가 나간 안 좋은 기억이 있어서 포기하고 2개의 케이블을 준비해두고
-케이블만 변경하며 사용하고 있었습니다만...&lt;br&gt;
-이게 여간 귀찮은게 아닙니다..! 그래서 이참에 magnetic cable을 구매해봤습니다.
+케이블만 변경하며 사용하고 있었습니다만…&lt;br /&gt;
+이게 여간 귀찮은게 아닙니다..! 그래서 이참에 magnetic cable을 구매해봤습니다.&lt;/p&gt;
 
-조금 걱정도 있었지만 요즘 나오는 것들은 예전처럼 문제가 발생하는 일은 없다고 해서 믿고 사봤습니다.
+&lt;p&gt;조금 걱정도 있었지만 요즘 나오는 것들은 예전처럼 문제가 발생하는 일은 없다고 해서 믿고 사봤습니다.
 약 한 달 정도 사용해봤는데 꽤 편합니다. 인식도 케이블 연결 후 2~3초 내에 되고 힘 줘서 빼지 않는 이상 빠지지 않을
-정도의 자력을 가지고 있습니다.
+정도의 자력을 가지고 있습니다.&lt;/p&gt;
 
-혹시 구매하실 예정이라면 이러한 종류의 케이블 중에는 데이터 전송은 안되고 충전만 되는 케이블들이 많으니 확인 후
-구매하시기 바랍니다. --&gt;</content><author><name>Kyusang Jo</name><email>goldjks0512@naver.com</email></author><category term="frontend" /><category term="html" /><summary type="html">HTML 은 Hyper Text Markup Language 약어로 HyperText(웹 페이지에서 다른 페이지로 이동할 수 있도록 하는 것) 기능을 가진 문서를 만드는 언어입니다. 다시 말해, 구조를 설계할 때 사용되는 언어로 hyper link 시스템을 가지고 있으며, 흔히 말하는 웹 페이지를 위한 마크업 언어라고 할 수 있습니다.</summary></entry></feed>
+&lt;p&gt;혹시 구매하실 예정이라면 이러한 종류의 케이블 중에는 데이터 전송은 안되고 충전만 되는 케이블들이 많으니 확인 후
+구매하시기 바랍니다.&lt;/p&gt;</content><author><name>Kyusang Jo</name><email>goldjks0512@naver.com</email></author><category term="programming" /><category term="javascript" /><summary type="html">이제 키지도 않는 LED는 질렸습니다. 이제는, 이제는 65%의 시대입니다…!!! Keyboard Layout Mount Plate Ark68 SE 65% Gasket Aluminium</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/2022-09-16/ark68.png" /><media:content medium="image" url="http://localhost:4000/assets/img/2022-09-16/ark68.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
